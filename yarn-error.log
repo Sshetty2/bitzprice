@@ -1,0 +1,45 @@
+Arguments: 
+  /home/sshetty2/.nvm/versions/node/v11.4.0/bin/node /home/sshetty2/.nvm/versions/node/v11.4.0/bin/yarn install
+
+PATH: 
+  /home/sshetty2/.cargo/bin:/home/sshetty2/.local/bin:/home/sshetty2/.nvm/versions/node/v11.4.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/ProgramData/DockerDesktop/version-bin:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath_target_20790687:/mnt/c/Python37/Scripts:/mnt/c/Python37:/mnt/c/Windows/System32:/mnt/c/Windows:/mnt/c/Windows/System32/wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0:/mnt/c/Program Files (x86)/Skype/Phone:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Windows/System32:/mnt/c/Windows:/mnt/c/Windows/System32/wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0:/mnt/c/Windows/System32/OpenSSH:/mnt/c/Program Files/Git/cmd:/mnt/c/Go/bin:/mnt/c/Program Files/nodejs:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/PuTTY:/mnt/c/sqlite-dll-win64-x64-3260000:/mnt/c/ProgramData/DockerDesktop/version-bin:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Python37/Scripts:/mnt/c/Python37:/mnt/c/Windows/System32:/mnt/c/Windows:/mnt/c/Windows/System32/wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0:/mnt/c/Program Files (x86)/Skype/Phone:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Windows/System32:/mnt/c/Windows:/mnt/c/Windows/System32/wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0:/mnt/c/Windows/System32/OpenSSH:/mnt/c/Program Files/Git/cmd:/mnt/c/Go/bin:/mnt/c/Program Files/nodejs:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Users/Sachit/AppData/Roaming/npm:/mnt/c/Users/Sachit/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/Sachit/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/Sachit/AppData/Roaming/npm:/mnt/c/Users/Sachit/AppData/Local/atom/bin:/mnt/c/Users/Sachit/.android:/mnt/e/Genymotion/tools:/mnt/c/Users/Sachit/AppData/Local/.meteor:/mnt/c/Python27:/mnt/c/sqlite-dll-win64-x64-3260000
+
+Yarn version: 
+  1.13.0
+
+Node version: 
+  11.4.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: ENOENT: no such file or directory, copyfile '/home/sshetty2/.cache/yarn/v4/npm-core-js-2.6.5-44bc8d249e7fb2ff5d00e0341a7ffb94fbf67895/node_modules/core-js/modules/library/es6.number.constructor.js' -> '/mnt/c/Users/Sachit/Desktop/bitzprice/node_modules/core-js/modules/library/es6.number.constructor.js'
+
+npm manifest: 
+  {
+    "name": "bitzprice",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "dev": "next",
+      "build": "next build",
+      "start": "next start"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "isomorphic-unfetch": "^2.0.0",
+      "next": "^4.2.3",
+      "react": "^16.2.0",
+      "react-dom": "^16.2.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
