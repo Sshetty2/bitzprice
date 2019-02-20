@@ -1,5 +1,5 @@
 Arguments: 
-  /home/sshetty2/.nvm/versions/node/v11.4.0/bin/node /home/sshetty2/.nvm/versions/node/v11.4.0/bin/yarn next
+  /home/sshetty2/.nvm/versions/node/v11.4.0/bin/node /home/sshetty2/.nvm/versions/node/v11.4.0/bin/yarn add material-ui@0.20.0
 
 PATH: 
   /home/sshetty2/.cargo/bin:/home/sshetty2/.local/bin:/home/sshetty2/.nvm/versions/node/v11.4.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/ProgramData/DockerDesktop/version-bin:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath_target_20790687:/mnt/c/Python37/Scripts:/mnt/c/Python37:/mnt/c/Windows/System32:/mnt/c/Windows:/mnt/c/Windows/System32/wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0:/mnt/c/Program Files (x86)/Skype/Phone:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Windows/System32:/mnt/c/Windows:/mnt/c/Windows/System32/wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0:/mnt/c/Windows/System32/OpenSSH:/mnt/c/Program Files/Git/cmd:/mnt/c/Go/bin:/mnt/c/Program Files/nodejs:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/PuTTY:/mnt/c/sqlite-dll-win64-x64-3260000:/mnt/c/ProgramData/DockerDesktop/version-bin:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Python37/Scripts:/mnt/c/Python37:/mnt/c/Windows/System32:/mnt/c/Windows:/mnt/c/Windows/System32/wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0:/mnt/c/Program Files (x86)/Skype/Phone:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Windows/System32:/mnt/c/Windows:/mnt/c/Windows/System32/wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0:/mnt/c/Windows/System32/OpenSSH:/mnt/c/Program Files/Git/cmd:/mnt/c/Go/bin:/mnt/c/Program Files/nodejs:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Users/Sachit/AppData/Roaming/npm:/mnt/c/Users/Sachit/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/Sachit/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/Sachit/AppData/Roaming/npm:/mnt/c/Users/Sachit/AppData/Local/atom/bin:/mnt/c/Users/Sachit/.android:/mnt/e/Genymotion/tools:/mnt/c/Users/Sachit/AppData/Local/.meteor:/mnt/c/Python27:/mnt/c/sqlite-dll-win64-x64-3260000:/mnt/c/Users/Sachit/AppData/Local/now-cli
@@ -14,12 +14,7 @@ Platform:
   linux x64
 
 Trace: 
-  SyntaxError: /mnt/c/Users/Sachit/Desktop/bitzprice/package.json: Unexpected token / in JSON at position 218
-      at JSON.parse (<anonymous>)
-      at /home/sshetty2/.nvm/versions/node/v11.4.0/lib/node_modules/yarn/lib/cli.js:1625:59
-      at Generator.next (<anonymous>)
-      at step (/home/sshetty2/.nvm/versions/node/v11.4.0/lib/node_modules/yarn/lib/cli.js:304:30)
-      at /home/sshetty2/.nvm/versions/node/v11.4.0/lib/node_modules/yarn/lib/cli.js:315:13
+  Error: ENOENT: no such file or directory, lstat '/home/sshetty2/.cache/yarn/v4/npm-icss-replace-symbols-1.1.0-06ea6f83679a7749e386cfe1fe812ae5db223ded/node_modules/icss-replace-symbols/lib'
 
 npm manifest: 
   {
@@ -32,9 +27,6 @@ npm manifest:
       "build": "next build",
       "start": "next start -p $PORT"
     },
-    "loaders":[{
-      "test": /\.css$/,
-      "loader":'style!css!' }],
     "keywords": [],
     "author": "",
     "license": "ISC",

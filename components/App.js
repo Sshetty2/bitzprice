@@ -1,29 +1,24 @@
 import React, { Component } from 'react';
-
-import './App.css';
+import Layout from './Layout';
+import Prices from './Prices';
 import LoginScreen from './Loginscreen';
+import TweetsPanels from './TweetPanels'
 
 class App extends Component {
   constructor(props){
     super(props);
     this.state={
-      loginPage:[],
-      uploadScreen:[]
     }
-  }
-  componentWillMount(){
-    var _loginPage =[];
-    _loginPage.push(<LoginScreen appContext={this}/>);
-    this.setState({
-                  loginPage:_loginPage
-                    })
   }
   render() {
     return (
-      <div className="App">
-        {this.state.loginPage}
-        {this.state.uploadScreen}
+    <Layout>
+      <div>
+        <h1>Welcome to Dapp Twitter</h1>
+        <p>Check current Bitcoin rate</p>
+        <TweetsPanels />
       </div>
+    </Layout>
     );
   }
 }

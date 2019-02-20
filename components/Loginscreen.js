@@ -15,16 +15,12 @@ class Loginscreen extends Component {
     var _loginButtons=[];
     _loginButtons.push(
       <div>
-      <MuiThemeProvider>
         <div>
            <Button label={"Register as User"} backgroundColor="cornflowerblue" labelColor="white" style={style} onClick={(event) => this.handleClick(event,'user')}/>
        </div>
-       </MuiThemeProvider>
-       <MuiThemeProvider>
        <div>
           <Button backgroundColor="cornflowerblue" labelColor="white" label={"Register as Admin"} style={style} onClick={(event) => this.handleClick(event,'admin')}/>
       </div>
-      </MuiThemeProvider>
       </div>
     )
     this.state={
@@ -63,11 +59,9 @@ class Loginscreen extends Component {
       let loginButtons=[];
       loginButtons.push(
         <div key="login-button">
-        <MuiThemeProvider>
           <div>
              <Button label={"Login"} backgroundColor="cornflowerblue" labelColor="white" style={style} onClick={(event) => this.handleClick(event,userRole)}/>
          </div>
-         </MuiThemeProvider>
         </div>
       )
       this.setState({
@@ -81,16 +75,13 @@ class Loginscreen extends Component {
       let loginscreen=[],loginButtons=[];
       loginButtons.push(
         <div >
-        <MuiThemeProvider>
           <div>
              <Button label={"Register as User"} backgroundColor="cornflowerblue" labelColor="white" style={style} onClick={(event) => this.handleClick(event,'user')}/>
          </div>
-         </MuiThemeProvider>
-         <MuiThemeProvider>
          <div>
             <Button label={"Register as Admin"} backgroundColor="cornflowerblue" labelColor="white" style={style} onClick={(event) => this.handleClick(event,'admin')}/>
         </div>
-        </MuiThemeProvider>
+
         </div>
       )
       loginscreen.push(<LoginPage parentContext={this} appContext={this.props.appContext} role={userRole}/>);

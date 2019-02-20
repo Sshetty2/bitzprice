@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import MuiThemeProvider from '@material-ui/core/styles/MuiThemeProvider';
 import Button from '@material-ui/core/Button';
+import { createMuiTheme } from '@material-ui/core/styles';
 import TextField from '@material-ui/core/TextField';
 import Menu from '@material-ui/core/Menu';
 import MenuItem from '@material-ui/core/MenuItem';
@@ -10,12 +11,19 @@ var apiBaseUrl = "http://localhost:5000/api/";
 import AppBar from './AppBar';
 
 
+
+
 class Login extends Component {
   constructor(props){
     super(props);
     var localloginComponent=[];
+    const theme = createMuiTheme({
+      palette: {
+        type: 'dark',
+      },
+    });
     localloginComponent.push(
-      <MuiThemeProvider >
+      <MuiThemeProvider theme = {theme} >
         <div >
          <TextField
            hintText="Enter your User Name"
