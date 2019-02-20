@@ -14,9 +14,12 @@
   "dependencies": {
     "@material-ui/core": "^3.9.2",
     "@material-ui/icons": "^3.0.2",
-    "css-loader": "^2.1.0",
+    "clsx": "^1.0.3",
     "isomorphic-unfetch": "^2.0.0",
+    "jss": "^9.8.7",
+    "material-ui": "0.20.0",
     "next": "^4.2.3",
+    "prop-types": "^15.7.2",
     "react": "^16.2.0",
     "react-dom": "^16.2.0"
   }
