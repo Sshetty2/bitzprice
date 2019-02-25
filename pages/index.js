@@ -7,6 +7,10 @@ import TweetsPanels from '../components/TweetPanels'
 import getPageContext from '../src/getPageContext';
 
 
+import CssBaseline from '@material-ui/core/CssBaseline';
+import JssProvider from 'react-jss/lib/JssProvider';
+
+
 
 
 class MyApp extends App  {
@@ -33,7 +37,7 @@ class MyApp extends App  {
     </Layout>
     );
   }
-
+}
 // const Index = (props) => ( 
 //   <App />
 // );
